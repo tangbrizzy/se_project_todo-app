@@ -14,4 +14,4 @@ This project includes using import/exporting between files. Adding new form that
 
 This project is deployed on GitHub Pages:
 
-https://github.com/tangbrizzy/se_project_todo-app.git
+https://tangbrizzy.github.io/se_project_spots/

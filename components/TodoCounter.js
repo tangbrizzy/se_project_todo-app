@@ -3,7 +3,6 @@ class TodoCounter {
   // selector is the selector for the counter text element
   constructor(todos, selector) {
     this._element = document.querySelector(selector);
-    this._completed = 0; // number of completed todos
     this._total = todos.length;
     this._completed = todos.filter((todo) => todo.completed).length;
     this._updateText();
@@ -25,7 +24,7 @@ class TodoCounter {
     // if increment is true, add 1 to this._total. Otherwise,
     // subtract 1. In either case, call the method to update the
     // text content.
-    this._completed += increment ? 1 : -1;
+    this._total += increment ? 1 : -1;
     this._updateText();
   };
 
